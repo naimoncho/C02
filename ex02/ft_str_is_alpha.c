@@ -6,11 +6,9 @@
 /*   By: ncheniou <ncheniou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 13:27:54 by ncheniou          #+#    #+#             */
-/*   Updated: 2024/11/14 13:34:22 by ncheniou         ###   ########.fr       */
+/*   Updated: 2024/11/15 12:42:15 by ncheniou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_str_is_alpha(char *str)
 {

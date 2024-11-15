@@ -1,48 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_str_is_printable.c                              :+:      :+:    :+:   */
+/*   ft_strlowcase.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ncheniou <ncheniou@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ncheniou <ncheniou@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/15 12:43:59 by ncheniou          #+#    #+#             */
-/*   Updated: 2024/11/15 13:06:35 by ncheniou         ###   ########.fr       */
+/*   Created: 2024/11/15 12:49:10 by ncheniou          #+#    #+#             */
+/*   Updated: 2024/11/15 12:54:09 by ncheniou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_str_is_printable(char *str)
+char	*ft_strlowcase(char *str)
 {
-	int	i;
-	int	count;
+	int		i;
 
 	i = 0;
-	count = 0;
-	if (!str[0])
-	{
-		return (1);
-	}
 	while (str[i] != '\0')
 	{
-		if (str[i] < 32 || str[i] > 126)
+		if (str[i] >= 'A' && str[i] <= 'Z')
 		{
-			count ++;
+			(str[i] = str[i] - ('A' - 'a'));
 		}
 		i ++;
 	}
-	if (count > 0)
-		return (0);
-	else
-	{
-		return (1);
-	}
+	return (str);
 }
 /*
 int main()
 {
-    int i;
-    i = ft_str_is_printable("gr1'9rurrçighhg");
-    
-    printf("%d", i);
+    char str[] = "HolA coCAcola miAU";
+     ft_strupcase(str);
+    printf("%s", str);
     return 0;
 }
 */

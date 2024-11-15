@@ -6,11 +6,9 @@
 /*   By: ncheniou <ncheniou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 14:11:37 by ncheniou          #+#    #+#             */
-/*   Updated: 2024/11/14 14:15:50 by ncheniou         ###   ########.fr       */
+/*   Updated: 2024/11/15 12:40:34 by ncheniou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_str_is_uppercase(char *str)
 {

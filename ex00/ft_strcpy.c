@@ -6,11 +6,9 @@
 /*   By: ncheniou <ncheniou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/13 18:38:44 by naimcheniou       #+#    #+#             */
-/*   Updated: 2024/11/14 13:57:00 by ncheniou         ###   ########.fr       */
+/*   Updated: 2024/11/15 12:40:56 by ncheniou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 char	*ft_strcpy(char *dest, char *src)
 {

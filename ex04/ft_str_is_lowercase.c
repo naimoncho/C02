@@ -6,11 +6,9 @@
 /*   By: ncheniou <ncheniou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 14:04:40 by ncheniou          #+#    #+#             */
-/*   Updated: 2024/11/14 14:15:12 by ncheniou         ###   ########.fr       */
+/*   Updated: 2024/11/15 12:43:37 by ncheniou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_str_is_lowercase(char *str)
 {

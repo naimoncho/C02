@@ -6,12 +6,9 @@
 /*   By: ncheniou <ncheniou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 10:29:36 by ncheniou          #+#    #+#             */
-/*   Updated: 2024/11/14 13:56:37 by ncheniou         ###   ########.fr       */
+/*   Updated: 2024/11/14 18:47:59 by ncheniou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
-#include <string.h>
 
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
@@ -23,7 +20,11 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 		dest[aux] = src[aux];
 		aux ++;
 	}
-	dest[aux] = '\0';
+	while (aux < n)
+	{
+		dest[aux] = '\0';
+		aux ++;
+	}
 	return (dest);
 }
 /*
@@ -38,4 +39,6 @@ int main()
     printf("%s", dest);
     return 0;
 }
+#include <stdio.h>
+#include <string.h>
 */

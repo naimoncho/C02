@@ -6,11 +6,9 @@
 /*   By: ncheniou <ncheniou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 13:55:02 by ncheniou          #+#    #+#             */
-/*   Updated: 2024/11/14 14:13:04 by ncheniou         ###   ########.fr       */
+/*   Updated: 2024/11/15 12:42:41 by ncheniou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_str_is_numeric(char *str)
 {
